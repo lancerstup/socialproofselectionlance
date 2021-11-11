@@ -1,13 +1,14 @@
 .container{
-    margin:auto;
+    width: 330px;
     height: 1450px;
-    max-width: 330px;
-    margin:auto;
+    margin:auto; 
+    position:absolute;
+    top: 115%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+   
 }
 
-nav{
-    padding-top: 3.2em;
-}
 
 //HEADER PART//
 
