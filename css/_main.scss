@@ -1,0 +1,101 @@
+.container{
+    margin:auto;
+    height: 1450px;
+    max-width: 330px;
+    margin:auto;
+}
+
+nav{
+    padding-top: 3.2em;
+}
+
+//HEADER PART//
+
+.header-items{
+    margin-bottom: 2.046875em;
+    text-align: center;
+}
+
+
+.header-items > h1{
+    color:$VeryDarkMagenta;
+    font-size:32px;
+    line-height:1.1;
+}
+
+.header-items > p{
+    color:$DarkGrayishMagenta;
+    font-size:15px;
+    font-weight:500;
+}
+
+
+.header-items > p{
+    line-height:1.6;
+}
+
+
+//REVIEW PART//
+
+.review-items{
+    background:$LightGrayishMagenta ;
+    margin-top:1.25em;
+    padding:0.9375rem 3.75rem;
+    border-radius:10px;
+    text-align: center;
+    font-weight: 700;
+    font-size:13px;
+    
+}
+
+.review-items > div{
+    color:$VeryDarkMagenta;
+    padding-top:0.70rem;
+}
+
+//FEEDBACK PART//
+
+.feedback-items{
+    background: $VeryDarkMagenta;
+    margin-top:0.9375em;
+    padding:1.5625em 1.875em;
+    border-radius:10px;
+}
+
+.fi-one{
+    margin-top:2.1875em;
+}
+
+
+
+
+.feedback-items > .feedback-container > img{
+    border-radius: 50%;
+    max-height: 42px;
+}
+
+.feedback-items > p {
+    margin-bottom:10px;
+    margin-top:7px;
+    padding-top:0.625em;
+    font-size:14px;
+    line-height:1.6;
+    color:$LightGrayishMagenta;
+}
+
+.name{
+    font-size:13px;
+    font-weight:500;
+    color: $White;
+}
+
+.status{
+    padding-top:5px;
+    font-size:13px;
+    color:$SoftPink;
+}
+
+ul{
+    list-style: none;
+    padding-left:1.25em;
+}

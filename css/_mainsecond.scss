@@ -1,0 +1,162 @@
+body{
+    @include breakpoint-up(large){
+        padding-top:100px;
+        padding-bottom:100px;
+    }
+
+}
+
+.container{
+    @include breakpoint-up(large){
+        /*position:relative;*/
+        max-width:1120px;
+        height:600px;
+        margin:auto;
+        vertical-align: middle;
+    
+    }
+}
+
+
+//HEADER ITEMS AND REVIEW ITEMS DESKTOP//
+.header-items {
+    @include breakpoint-up(large){
+        margin:0;
+        padding-right:3em;
+    }
+}
+
+.header-items > h1{
+    @include breakpoint-up(large){
+        font-size:50px;
+        margin:0;
+    }
+}
+
+.header-items > p{
+    @include breakpoint-up(large){
+        margin-bottom:0;
+        font-size:16px;
+    }
+}
+
+
+.parent-h-r{
+
+    @include breakpoint-up(large){
+        display:flex;
+    }
+}
+
+.parent-h-r > .subparent{
+
+    @include breakpoint-up(large){
+        flex:1;
+    }
+}
+
+
+
+.subparent > .header-items{
+    @include breakpoint-up(large){
+       text-align: left;
+    }
+}
+
+.subparent-r{
+    @include breakpoint-up(large){
+       
+    }
+}
+
+
+.review-items{
+    @include breakpoint-up(large){
+        display:inline-block; 
+        width:338px;
+        text-align:left;
+        padding-left:2.5em;
+    }
+}
+
+.review-items > div{
+    @include breakpoint-up(large){
+        padding-left: 2em;  
+
+    }
+}
+
+.ri-two {
+    @include breakpoint-up(large){
+        margin-left: 2.5em;  
+    }
+  
+}
+
+
+.ri-three {
+    @include breakpoint-up(large){
+        margin-left: 6em;  
+    }
+  
+}
+
+
+.review-items > img{
+    @include breakpoint-up(large){
+        display:inline-block;
+    }
+}
+
+.review-items > div{
+    @include breakpoint-up(large){
+        display:inline-block;
+    }
+}
+
+
+//FEEDBACK DESKTOP//
+.feedback-items{
+    @include breakpoint-up(large){
+        display:inline-block;
+        max-width:285px; 
+        height:205px;
+       
+    }
+}
+
+.contain-feed{
+    @include breakpoint-up(large){
+        display:flex;
+        margin-top:2em;
+       /* position:absolute;
+        bottom:0;*/
+    
+    }
+    
+}
+
+.fi-one{
+    @include breakpoint-up(large){
+        margin-top:2.3241875em;  
+    }
+}
+
+.fi-two{
+    @include breakpoint-up(large){
+        margin-left:1.875em;
+        margin-top:3.4960625em; 
+    }
+}
+
+
+.fi-three{
+    @include breakpoint-up(large){
+        margin-left:1.875em;
+        margin-top:5em; 
+      
+    }
+}
+
+
+
